@@ -1,0 +1,91 @@
+Using 'COM6' as serial port.
+Connecting....
+Detecting chip type... Unsupported detection protocol, switching and trying again...
+Connecting....
+Detecting chip type... ESP894 %)Writing at 0x0006704c... (100 %)Wrote 431968 bytes (300079 compressed) at 0x00000000 in 7.3 seconds (effective 475.7 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard Resetting...
+Hard resetting via RTS pin...
+Done! Flashing is complete!
+
+Showing logs:
+[14:08:17]rl`rnrl`|l`nl[I][logger:258]: Log initialized
+[14:08:17][I][app:029]: Running through setup()...
+[14:08:17][I][i2c.arduino:175]: Performing I2C bus recovery
+[14:08:17][D][binary_sensor:034]: 'btn1': Sending initial state OFF
+[14:08:17][C][switch.gpio:011]: Setting up GPIO Switch 'Lab Control Switch'...
+[14:08:17][D][switch:017]: 'Lab Control Switch' Turning OFF.
+[14:08:17][D][switch:056]: 'Lab Control Switch': Sending state OFF
+[14:08:17]
+[14:08:17]--------------- CUT HERE FOR EXCEPTION DECODER ---------------
+[14:08:17]
+[14:08:17]Exception (29):
+[14:08:17]epc1=0x40209443 epc2=0x00000000 epc3=0x00000000 excvaddr=0x00000000 depc=0x00000000
+[14:08:17]
+[14:08:17]>>>stack>>>
+[14:08:17]
+[14:08:17]ctx: cont
+[14:08:17]sp: 3ffffb90 end: 3fffffc0 offset: 0190
+[14:08:17]3ffffd20:  00000017 00000000 00000000 4020943c  
+[14:08:17]3ffffd30:  00000000 3fff1b9c 3fff1b10 40209468  
+[14:08:17]3ffffd40:  3fff19a4 00000000 3fff191c 40206219  
+[14:08:17]3ffffd50:  3ffffda0 3ffffd90 00000010 4020675a  
+[14:08:17]3ffffd60:  00000210 00000210 3fff1afc 40209325  
+[14:08:17]3ffffd70:  3ffffda0 3ffffd90 3fff1bb4 40210324  
+[14:08:17]3ffffd80:  3ffffda0 3ffffd90 3fff1bb4 40223070  
+[14:08:17]3ffffd90:  3fff1c44 3fff1c4c 3fff1bac 402230fa  
+[14:08:17]3ffffda0:  3fff177c 3ffe8a7b 0000000c 402103b8  
+[14:08:17]3ffffdb0:  3fff19a4 00000000 3fff191c 40209d44  
+[14:08:17]3ffffdc0:  3fff1900 00000000 3fff191c 40206b0c  
+[14:08:18]3ffffdd0:  3fff19a4 00000000 3fff191c 40207464  
+[14:08:18]3ffffde0:  00000001 3ffffe20 00000010 4020f9f8  
+[14:08:18]3ffffdf0:  3ffffe20 3ffffe10 00000010 3fff1904  
+[14:08:18]3ffffe00:  3ffffe20 3ffffe10 00000010 40209c38  
+[14:08:18]3ffffe10:  3f000001 3ffffe20 00000010 40205641  
+[14:08:18]3ffffe20:  3fff177c 00000000 00000000 3fff1904  
+[14:08:18]3ffffe30:  3fff19a4 00000000 3fff191c 40209b82  
+[14:08:18]3ffffe40:  3fff1aa0 00000004 3fff191c 40207298  
+[14:08:18]3ffffe50:  00000001 3fff1c1c 3fff1a1c 4020711c  
+[14:08:18]3ffffe60:  00000000 00000004 3ffefd94 402072d3  
+[14:08:18]3ffffe70:  00000000 00000000 4020fa34 40222e70  
+[14:08:18]3ffffe80:  3fff1bc8 3ffffea0 0000000c 40222f04  
+[14:08:18]3ffffe90:  3fff1aa0 00000003 3ffefd94 4020ef89  
+[14:08:18]3ffffea0:  0000000c 0000000c 3fff1bdc 00000001  
+[14:08:18]3ffffeb0:  00000014 40210fab 00000020 40101224  
+[14:08:18]3ffffec0:  3fff19a4 00000000 00000008 00000001  
+[14:08:18]3ffffed0:  3ffefe58 00000000 3fff16a4 40210fd1  
+[14:08:18]3ffffee0:  3fff16b4 3fff16b8 3fff16b8 3ffe9128  
+[14:08:18]3ffffef0:  006c6f72 00000000 00000000 00000000  
+[14:08:18]3fffff00:  3fffff08 00000000 00000000 00000000  
+[14:08:18]3fffff10:  00000000 00000000 00000000 00000000  
+[14:08:18]3fffff20:  00000000 00000000 00000000 00000000  
+[14:08:18]3fffff30:  00000000 00000000 3fffff60 00000001  
+[14:08:18]3fffff40:  2062614c 746e6f43 006c6f72 feef0034  
+[14:08:18]3fffff50:  3fffff38 00000001 feefeffe feefeffe  
+[14:08:18]3fffff60:  3fff1bb4 feefeffe feefeffe feefeffe  
+[14:08:18]3fffff70:  3fff188c 3f800000 3fffff60 00000084  
+[14:08:18]3fffff80:  0000010c 00000009 feefeffe feefeffe  
+[14:08:18]3fffff90:  feefeffe feefeffe feefeffe 3fff02a4  
+[14:08:18]3fffffa0:  3fffdad0 00000000 3fff0290 4021eb9c  
+[14:08:18]3fffffb0:  feefeffe feefeffe 3ffe864c 4010048d  
+[14:08:18]<<<stack<<<
+[14:08:18]
+[14:08:18]--------------- CUT HERE FOR EXCEPTION DECODER ---------------
+[14:08:18]
+[14:08:18] ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+[14:08:18]
+[14:08:18]load 0x4010f000, len 3460, room 16 
+[14:08:18]tail 4
+[14:08:18]chksum 0xcc
+[14:08:18]load 0x3fff20b8, len 40, room 4 
+[14:08:18]tail 4
+[14:08:18]chksum 0xc9
+[14:08:18]csum 0xc9
+[14:08:18]v00069760
+[14:08:18]~ld
+[14:08:18][I][logger:258]: Log initialized
+[14:08:18][I][app:029]: Running through setup()...
+...
+    Exception (29) again, et cetera
