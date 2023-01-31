@@ -2,7 +2,7 @@
 #
 # Slow reacting pi-hole devices is normal (they're on RPi Zero's)
 #
-# Don't know why I get these epoch warning. The number of these messages varies between start-ups
+# Don't know why I get these epoch warnings. The number of these messages varies between start-ups.
 
 s6-rc: info: service s6rc-oneshot-runner: starting
 s6-rc: info: service s6rc-oneshot-runner successfully started
