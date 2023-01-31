@@ -27,6 +27,7 @@ Complete log: https://github.com/jov58/esphome/blob/main/modbus/slave1-slave2.lo
 2023-01-31 11:28:16.321 INFO (SyncWorker_6) [homeassistant.components.modbus.modbus] modbus Waveshare Meterkast communication open
 2023-01-31 11:28:28.648 DEBUG (SyncWorker_21) [pymodbus.client.sync] New Transaction state 'SENDING'
 ... more of these messages (sometimes for 15 minutes, this time for 5 minutes) while desktop says 'Wrapping up ...'
+... During this stage, I can already see entities of both slaves responding on the desktop.
 2023-01-31 11:33:34.935 DEBUG (SyncWorker_17) [pymodbus.client.sync] New Transaction state 'SENDING'
 2023-01-31 11:33:35.036 WARNING (MainThread) [homeassistant.bootstrap] Setup timed out for bootstrap - moving forward
 2023-01-31 11:33:35.188 DEBUG (SyncWorker_7) [pymodbus.client.sync] New Transaction state 'SENDING'
